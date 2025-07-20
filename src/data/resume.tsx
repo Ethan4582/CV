@@ -165,7 +165,7 @@ Used ModelSim for RTL simulation and design verification, and developed interrup
   {
   "title": "DevRooms",
   "href": "https://dev-finder-amber-chi.vercel.app",
-  "dates": "June 2025 - July 2025",
+  "dates": "March 2025 - April 2025",
   "active": true,
   "description": "DevRooms enables real-time developer collaboration with shared coding environments, integrated video conferencing via GetStream.io, and GitHub integration, built with Next.js 14 and a responsive UI.",
   "technologies": [
@@ -229,7 +229,7 @@ Used ModelSim for RTL simulation and design verification, and developed interrup
 {
   "title": "Chess Master",
   "href": "https://chess-com-v8tt.onrender.com",
-  "dates": "May 2025 - July 2025",
+  "dates":  "March 2025 - April 2025",
   "active": true,
   "description": "A real-time multiplayer chess platform with modern UI, move history, and spectator mode. Features Socket.IO for live updates, chess.js for move validation, and responsive design with light/dark mode.",
   "technologies": [
@@ -260,8 +260,8 @@ Used ModelSim for RTL simulation and design verification, and developed interrup
 {
   "title": "Multi-Threaded Proxy Server",
   "href": "https://github.com/Ethan4582/Multi-Threaded-Proxy-Server",
-  "dates": "January 2024 - April 2024",
-  "active": false,
+  "dates":  "May 2025 - July 2025",
+  "active":  true,
   "description": "A multi-threaded HTTP proxy server in C with an LRU cache, supporting concurrent client connections using POSIX threads, semaphores, and mutexes for efficient response caching.",
   "technologies": [
     "C++",
@@ -280,9 +280,88 @@ Used ModelSim for RTL simulation and design verification, and developed interrup
 video: ""
 },
 {
+  "title": "Google Docs Clone",
+  "href": "https://google-doc-frontend-3z2r.onrender.com",
+  "dates": "Feb 2024 - March 2024",
+  "active":  true,
+  "description": "A real-time collaborative document editing platform inspired by Google Docs, enabling simultaneous editing, rich text formatting, and cursor synchronization using WebSocket.",
+  "technologies": [
+    "React",
+    "Node.js",
+    "Express",
+    "Socket.IO",
+    "Quill.js",
+    "MongoDB"
+  ],
+  links: [
+    {
+      type: "Website",
+      href: "https://google-doc-frontend-3z2r.onrender.com",
+      icon: <Icons.github className="size-3" />
+    },
+    {
+      type: "Source",
+      href: "https://github.com/Ethan4582/Google-Doc-Clone",
+      icon: <Icons.github className="size-3" />
+    }
+  ],
+  image: "/52.png",
+  video: ""
+},
+{
+  "title": "CryptoPlace",
+  "href": "https://github.com/Ethan4582/Crypto-tracker",
+  "dates": "July 2024 - October 2024",
+  "active": true,
+  "description": "A React-based app for real-time cryptocurrency data, fetching market rankings, prices, and 24-hour fluctuations from CoinGecko API with an interactive UI and chart.",
+  "technologies": [
+    "React",
+    "Node.js",
+    "Framer Motion",
+    "CoinGecko API"
+  ],
+  links: [
+    {
+      type: "Source",
+      href: "https://github.com/Ethan4582/Crypto-tracker",
+      icon: <Icons.github className="size-3" />
+    }
+  ],
+  image: "/39.png",
+  video: ""
+},
+{
+  "title": "Streamerzz",
+  "href": "https://streamerzz-indol.vercel.app",
+  "dates": "September 2024 - December 2024",
+  "active":  true,
+  "description": "A sleek, animated, and responsive landing page for Streamerzz, a next-gen streaming toolkit. Built with React, Tailwind CSS, and Framer Motion, featuring dynamic animations, pricing plans, and testimonials.",
+  "technologies": [
+    "React",
+    "Vite",
+    "TailwindCSS",
+    "Framer Motion",
+    "JavaScript"
+  ],
+  links: [
+    {
+      type: "Website",
+      href: "https://streamerzz-indol.vercel.app",
+      icon: <Icons.github className="size-3" />
+    },
+    {
+      type: "Source",
+      href: "https://github.com/Ethan4582/Streamerzz",
+      icon: <Icons.github className="size-3" />
+    }
+  ],
+  image: "/img16.png",
+  video: ""
+},
+{
   "title": "Nike Landing Page",
   "href": "https://github.com/Ethan4582/Nike_landing-Page",
-  "dates": "June 2025 - July 2025",
+  "dates": "November 2024 - December 2024",
   "active": true,
   "description": "A sleek, animated Nike-inspired landing page built with Next.js 15 and Framer Motion, showcasing responsive design and modern UI for an engaging user experience.",
   "technologies": [
@@ -299,6 +378,32 @@ video: ""
     }
   ],
   image: "/img21.png",
+  video: ""
+},
+{
+  "title": "Gotham Legends",
+  "href": "https://gotham-legends.vercel.app",
+  "dates": "January 2024 - February 2024",
+  "active": true,
+  "description": "A web-based platform featuring interactive 3D models and animations of Gotham's characters, optimized for smooth performance in local and cloud environments.",
+  "technologies": [
+    "React",
+    "Three.js",
+    "TailwindCSS"
+  ],
+  links: [
+    {
+      type: "Website",
+      href: "https://gotham-legends.vercel.app",
+      icon: <Icons.github className="size-3" />
+    },
+    {
+      type: "Source",
+      href: "https://github.com/Ethan4582/Gotham-Legends",
+      icon: <Icons.github className="size-3" />
+    }
+  ],
+  image: "/7.png",
   video: ""
 }
 
