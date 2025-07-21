@@ -120,7 +120,7 @@ Used ModelSim for RTL simulation and design verification, and developed interrup
       school: "Relaince Foundation ",
       href: "https://www.rfs.edu.in/Lodhivali-EM/",
       degree: "Class 12 ",
-      logoUrl: "/Relaince.png",
+      logoUrl: "/R3.png",
       start: "2017",
       end: "2019",
     },
@@ -135,33 +135,33 @@ Used ModelSim for RTL simulation and design verification, and developed interrup
 
   ],
   projects: [
-     {
-    "title": "RepoSense",
-    "href": "https://github.com/Ethan4582/RepoSense",
-    "dates": "June 2025 - July 2025",
-    "active": true,
-    "description": "Chat with GitHub repos using RAG-powered AI (LangChain + Gemini) and get meeting summaries via Assembly AI. Built with Next.js 15, Stripe credits, and optimized for low-latency QA",
-    "technologies": [
-      "Next.js",
-      "TypeScript",
-      "PostgreSQL",
-      "LangChain",
-      "Gemini AI",
-      "Assembly AI",
-      "Stripe",
-      "TailwindCSS",
-      "Shadcn UI"
-    ],
-    links: [
-      {
-        type: "Source",
-        href: "https://github.com/Ethan4582/RepoSense",
-        icon: <Icons.github className="size-3" />
-      }
-    ],
-    image: "/RepoSense.png",
-    video: ""
-  },
+  //    {
+  //   "title": "RepoSense",
+  //   "href": "https://github.com/Ethan4582/RepoSense",
+  //   "dates": "June 2025 - July 2025",
+  //   "active": true,
+  //   "description": "Chat with GitHub repos using RAG-powered AI (LangChain + Gemini) and get meeting summaries via Assembly AI. Built with Next.js 15, Stripe credits, and optimized for low-latency QA",
+  //   "technologies": [
+  //     "Next.js",
+  //     "TypeScript",
+  //     "PostgreSQL",
+  //     "LangChain",
+  //     "Gemini AI",
+  //     "Assembly AI",
+  //     "Stripe",
+  //     "TailwindCSS",
+  //     "Shadcn UI"
+  //   ],
+  //   links: [
+  //     {
+  //       type: "Source",
+  //       href: "https://github.com/Ethan4582/RepoSense",
+  //       icon: <Icons.github className="size-3" />
+  //     }
+  //   ],
+  //   image: "/41.png",
+  //   video: ""
+  // },
   {
   "title": "DevRooms",
   "href": "https://dev-finder-amber-chi.vercel.app",
@@ -223,7 +223,7 @@ Used ModelSim for RTL simulation and design verification, and developed interrup
       icon: <Icons.github className="size-3" />
     }
   ],
-  image: "/CHat.png",
+  image: "/99.png",
   video: ""
 },
 {
