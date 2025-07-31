@@ -83,7 +83,7 @@ And for fun? State-level boxer. Gold and Bronze. Bringing that same discipline (
       },
       Resume: {
         name: "Resume",
-        url: "https://drive.google.com/file/d/1jabVTSbxp8QAOeHu2gYX-qozCvOtFvpx/view?usp=sharing",
+        url: "https://drive.google.com/file/d/14f9FXsjtArs0WfEE1NxblLv2X97D9qCT/view",
         icon: NotebookIcon,
         navbar: true,
       },
