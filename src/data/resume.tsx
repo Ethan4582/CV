@@ -227,6 +227,46 @@ Used ModelSim for RTL simulation and design verification, and developed interrup
   video: ""
 },
 {
+  "title": "Dream House",
+  "href": "https://dream-house-property-marketplace.vercel.app",
+  "dates": "June 2025 - Present",
+  "active": true,
+  "description": "A modern property marketplace platform enabling users to browse, buy, sell, and rent properties with user authentication, property management, and messaging capabilities.",
+  "technologies": [
+    "Next.js (App Router)",
+    "TypeScript",
+    "PostgreSQL",
+    "Prisma",
+    "TailwindCSS",
+    "JWT Authentication",
+    "Framer Motion",
+    "Lucide Icons",
+    "Docker"
+  ],
+  links: [
+    {
+      type: "Website",
+      href: "https://dreamhouse-iota.vercel.app/",
+       icon: <Icons.github className="size-3" />
+    },
+    {
+      type: "Source",
+      href: "https://github.com/Ethan4582/Dream-house",
+      icon: <Icons.github className="size-3" />
+    }
+  ],
+  image: "/1.png",
+  video: "",
+  features: [
+    "Property marketplace for buying/selling/renting",
+    "Secure JWT authentication",
+    "Advanced property search filters",
+    "Property management system",
+    "Direct messaging between users",
+    "Responsive mobile-friendly UI"
+  ]
+},
+{
   "title": "Chess Master",
   "href": "https://chess-com-v8tt.onrender.com",
   "dates":  "March 2025 - April 2025",
