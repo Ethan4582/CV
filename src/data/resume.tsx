@@ -134,7 +134,7 @@ Used ModelSim for RTL simulation and design verification, and developed interrup
     },
 
   ],
-  projects: [
+  AllProjects: [
   //    {
   //   "title": "RepoSense",
   //   "href": "https://github.com/Ethan4582/RepoSense",
@@ -225,6 +225,35 @@ Used ModelSim for RTL simulation and design verification, and developed interrup
   ],
   image: "/99.png",
   video: ""
+},
+{
+  "title": "Amber Films Studio",
+  "href": "https://amber-films-studio.vercel.app",
+  "dates": "January 2024 - Present",
+  "active": true,
+  "description": "A cinematic storytelling studio website showcasing premium film projects, team members, awards, and client work with elegant dark aesthetics and smooth animations.",
+  "technologies": [
+    "Next.js",
+    "GSAP",
+    "Lenis Scroll",
+    "Framer Motion",
+    "TypeScript",
+  ],
+  
+  links: [
+    {
+      type: "Website",
+      href: "https://amber-media.vercel.app/",
+       icon: <Icons.github className="size-3" />
+    },
+    {
+      type: "GitHub",
+      href: "https://github.com/Ethan4582/Amber-Media",
+      icon: <Icons.github className="size-3" />
+    }
+  ],
+  image: "/37.png",
+  video: "",
 },
 {
   "title": "Dream House",
@@ -449,6 +478,229 @@ video: ""
 
    
   ],
+
+
+//! --------------------------------frontend 
+  Frontend:[
+    {
+  "title": "Amber Films Studio",
+  "href": "https://amber-films-studio.vercel.app",
+  "dates": "January 2024 - Present",
+  "active": true,
+  "description": "A cinematic storytelling studio website showcasing premium film projects, team members, awards, and client work with elegant dark aesthetics and smooth animations.",
+  "technologies": [
+    "Next.js",
+    "GSAP",
+    "Lenis Scroll",
+    "Framer Motion",
+    "TypeScript",
+  ],
+  
+  links: [
+    {
+      type: "Website",
+      href: "https://amber-media.vercel.app/",
+       icon: <Icons.github className="size-3" />
+    },
+    {
+      type: "GitHub",
+      href: "https://github.com/Ethan4582/Amber-Media",
+      icon: <Icons.github className="size-3" />
+    }
+  ],
+  image: "/37.png",
+  video: "",
+},
+    {
+  "title": "Streamerzz",
+  "href": "https://streamerzz-indol.vercel.app",
+  "dates": "September 2024 - December 2024",
+  "active":  true,
+  "description": "A sleek, animated, and responsive landing page for Streamerzz, a next-gen streaming toolkit. Built with React, Tailwind CSS, and Framer Motion, featuring dynamic animations, pricing plans, and testimonials.",
+  "technologies": [
+    "React",
+    "Vite",
+    "TailwindCSS",
+    "Framer Motion",
+    "JavaScript"
+  ],
+  links: [
+    {
+      type: "Website",
+      href: "https://streamerzz-indol.vercel.app",
+      icon: <Icons.github className="size-3" />
+    },
+    {
+      type: "Source",
+      href: "https://github.com/Ethan4582/Streamerzz",
+      icon: <Icons.github className="size-3" />
+    }
+  ],
+  image: "/img16.png",
+  video: ""
+},
+{
+  "title": "Nike Landing Page",
+  "href": "https://github.com/Ethan4582/Nike_landing-Page",
+  "dates": "November 2024 - December 2024",
+  "active": true,
+  "description": "A sleek, animated Nike-inspired landing page built with Next.js 15 and Framer Motion, showcasing responsive design and modern UI for an engaging user experience.",
+  "technologies": [
+    "Next.js",
+    "TypeScript",
+    "Framer Motion",
+    "TailwindCSS"
+  ],
+  links: [
+    {
+      type: "Source",
+      href: "https://github.com/Ethan4582/Nike_landing-Page",
+      icon: <Icons.github className="size-3" />
+    }
+  ],
+  image: "/img21.png",
+  video: ""
+},
+    {
+  "title": "Gotham Legends",
+  "href": "https://gotham-legends.vercel.app",
+  "dates": "January 2024 - February 2024",
+  "active": true,
+  "description": "A web-based platform featuring interactive 3D models and animations of Gotham's characters, optimized for smooth performance in local and cloud environments.",
+  "technologies": [
+    "React",
+    "Three.js",
+    "TailwindCSS"
+  ],
+  links: [
+    {
+      type: "Website",
+      href: "https://gotham-legends.vercel.app",
+      icon: <Icons.github className="size-3" />
+    },
+    {
+      type: "Source",
+      href: "https://github.com/Ethan4582/Gotham-Legends",
+      icon: <Icons.github className="size-3" />
+    }
+  ],
+  image: "/7.png",
+  video: ""
+}
+
+  ],
+
+
+  //!---------------------------------Freelance
+
+  Freelance:[
+    {
+  "title": "Amber Films Studio",
+  "href": "https://amber-films-studio.vercel.app",
+  "dates": "January 2024 - Present",
+  "active": true,
+  "description": "A cinematic storytelling studio website showcasing premium film projects, team members, awards, and client work with elegant dark aesthetics and smooth animations.",
+  "technologies": [
+    "Next.js",
+    "GSAP",
+    "Lenis Scroll",
+    "Framer Motion",
+    "TypeScript",
+  ],
+  
+  links: [
+    {
+      type: "Website",
+      href: "https://amber-media.vercel.app/",
+       icon: <Icons.github className="size-3" />
+    },
+    {
+      type: "GitHub",
+      href: "https://github.com/Ethan4582/Amber-Media",
+      icon: <Icons.github className="size-3" />
+    }
+  ],
+  image: "/37.png",
+  video: "",
+},
+    {
+  "title": "Dream House",
+  "href": "https://dream-house-property-marketplace.vercel.app",
+  "dates": "June 2025 - Present",
+  "active": true,
+  "description": "A modern property marketplace platform enabling users to browse, buy, sell, and rent properties with user authentication, property management, and messaging capabilities.",
+  "technologies": [
+    "Next.js (App Router)",
+    "TypeScript",
+    "PostgreSQL",
+    "Prisma",
+    "TailwindCSS",
+    "JWT Authentication",
+    "Framer Motion",
+    "Lucide Icons",
+    "Docker"
+  ],
+  links: [
+    {
+      type: "Website",
+      href: "https://dreamhouse-iota.vercel.app/",
+       icon: <Icons.github className="size-3" />
+    },
+    {
+      type: "Source",
+      href: "https://github.com/Ethan4582/Dream-house",
+      icon: <Icons.github className="size-3" />
+    }
+  ],
+  image: "/1.png",
+  video: "",
+  features: [
+    "Property marketplace for buying/selling/renting",
+    "Secure JWT authentication",
+    "Advanced property search filters",
+    "Property management system",
+    "Direct messaging between users",
+    "Responsive mobile-friendly UI"
+  ]
+},
+
+  ],
+
+
+  //!---------------------------------WEB3
+  Web3:[
+    {
+  "title": "Amber Films Studio",
+  "href": "https://amber-films-studio.vercel.app",
+  "dates": "January 2024 - Present",
+  "active": true,
+  "description": "A cinematic storytelling studio website showcasing premium film projects, team members, awards, and client work with elegant dark aesthetics and smooth animations.",
+  "technologies": [
+    "Next.js",
+    "GSAP",
+    "Lenis Scroll",
+    "Framer Motion",
+    "TypeScript",
+  ],
+  
+  links: [
+    {
+      type: "Website",
+      href: "https://amber-media.vercel.app/",
+       icon: <Icons.github className="size-3" />
+    },
+    {
+      type: "GitHub",
+      href: "https://github.com/Ethan4582/Amber-Media",
+      icon: <Icons.github className="size-3" />
+    }
+  ],
+  image: "/37.png",
+  video: "",
+},
+    
+
+  ]
   // hackathons: [
   //   {
   //     title: "Hack Western 5",

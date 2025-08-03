@@ -1,3 +1,5 @@
+"use client";
+
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
@@ -8,10 +10,21 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
-
+import { useState } from "react";
+import Lenis from "lenis";
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
+  const [projectType, setProjectType] = useState<"All" | "Frontend" | "Freelance" | "WEB3">("All");
+
+  // Map type to DATA key
+  const projectMap = {
+    All: DATA.AllProjects,
+    Frontend: DATA.Frontend,
+    Freelance: DATA.Freelance,
+    WEB3: DATA.Web3,
+  };
+
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
       <section id="hero">
@@ -127,14 +140,36 @@ export default function Page() {
                   websites to complex web applications. Here are a few of my
                   favorites.
                 </p>
+                {/* --- Filter Buttons --- */}
+                <div className="flex gap-2 justify-center mt-4">
+                  {["All", "Frontend", "Freelance", "WEB3"].map((type) => (
+                    <button
+                      key={type}
+                      className={`px-4 py-1 rounded-lg font-medium transition-colors duration-200
+        ${projectType === type
+          ? "bg-foreground text-background shadow-sm"
+          : "bg-transparent text-foreground hover:bg-muted"}
+        border border-transparent`}
+                      onClick={() => setProjectType(type as typeof projectType)}
+                      style={{
+                        outline: "none",
+                        boxShadow: projectType === type ? "0 2px 8px rgba(0,0,0,0.04)" : "none",
+                      }}
+                    >
+                      {type}
+                    </button>
+                  ))}
+                </div>
               </div>
             </div>
           </BlurFade>
+          {/* --- Filtered Projects --- */}
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
-            {DATA.projects.map((project, id) => (
+            {projectMap[projectType].map((project, id) => (
               <BlurFade
                 key={project.title}
                 delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+                duration={0.9} // <-- slower animation
               >
                 <ProjectCard
                   href={project.href}
