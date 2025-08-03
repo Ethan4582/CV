@@ -6,7 +6,7 @@ export default function LenisProvider() {
   useEffect(() => {
     const lenis = new Lenis({
       lerp: 0.1,
-      smooth: true,
+     
     });
 
     function raf(time: number) {
