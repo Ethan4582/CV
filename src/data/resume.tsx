@@ -228,7 +228,7 @@ Used ModelSim for RTL simulation and design verification, and developed interrup
 },
 {
   "title": "Amber Films Studio",
-  "href": "https://amber-films-studio.vercel.app",
+  "href": "https://amber-media.vercel.app/",
   "dates": "January 2024 - Present",
   "active": true,
   "description": "A cinematic storytelling studio website showcasing premium film projects, team members, awards, and client work with elegant dark aesthetics and smooth animations.",
@@ -484,7 +484,7 @@ video: ""
   Frontend:[
     {
   "title": "Amber Films Studio",
-  "href": "https://amber-films-studio.vercel.app",
+  "href": "https://amber-media.vercel.app/",
   "dates": "January 2024 - Present",
   "active": true,
   "description": "A cinematic storytelling studio website showcasing premium film projects, team members, awards, and client work with elegant dark aesthetics and smooth animations.",
@@ -596,7 +596,7 @@ video: ""
   Freelance:[
     {
   "title": "Amber Films Studio",
-  "href": "https://amber-films-studio.vercel.app",
+  "href": "https://amber-media.vercel.app/",
   "dates": "January 2024 - Present",
   "active": true,
   "description": "A cinematic storytelling studio website showcasing premium film projects, team members, awards, and client work with elegant dark aesthetics and smooth animations.",
